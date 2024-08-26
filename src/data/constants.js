@@ -31,7 +31,7 @@ export const skills = [
       {
         name: "TypeScript",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          "",
       },
       {
         name: "HTML",
@@ -262,8 +262,6 @@ export const projects = [
     tags: [
       "Docker",
       "AWS",
-      "DuckDNS",
-      "Eslint",
       "Husky",
       "CI/CD",
       "React Js",
@@ -273,23 +271,51 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
+    github: "https://github.com/Balu0103/Trackify",
     webapp: "https://trackify.duckdns.org",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Car Rental Application",
+    date: "Jan 2022 - present",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Designed and developed a car rental application, overseeing all aspects from backend architecture to frontend design and ensuring a seamless user experience and efficient operational functionality. Added search and filtering options to help users find cars by location, type, price, and availability. Integrated third-party APIs for payment gateways and location services, enhancing the functionality of the application. Added user login and profile features so customers can easily manage their bookings and view their rental history.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["Angular", "Java", "Spring Boot", "PostgreSQL", "Git", "Docker"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/Balu0103/carRental",
+    webapp: "",
   },
   
+  {
+    id: 1,
+    title: "E-commerse",
+    date: "Apr 2021 - May 2023",
+    description:
+      "Developed an e-commerce site with features like product listings, shopping carts, and secure checkout. Implemented user authentication and profile management, allowing secure logins and personalized shopping experiences. Developed and maintained product catalog with features for adding, updating, and managing details and categories. Implemented a customer review system, allowing users to leave feedback and ratings on products.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    tags: ["React Js", "Bootstap", "Node Js", "PostgreSQL", "Git"],
+    category: "web app",
+    github: "https://github.com/Balu0103/eCommerce-website",
+    webapp: "",
+  },
+
+  {
+    id: 2,
+    title: "penny Tracker",
+    date: "Feb 2021 - Jun 2021",
+    description:
+      "Developed a personal finance tracker that allows users to categorize expenses and track spending across various categories, providing a clear overview of their finances. Enhanced spending reports with simple graphs to illustrate spending trends and patterns over time.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    tags: ["React Js", "Bootstap", "Node Js", "MySQL"],
+    category: "web app",
+    github: "https://github.com/Balu0103/Penny-Tracker",
+    webapp: "",
+  },
+
   {
     id: 10,
     title: "Job Finding App",
