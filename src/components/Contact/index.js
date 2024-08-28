@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
+emailjs.init('0PMPJOnffqzLcR9dv');
+
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -130,7 +132,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_fby17mm', 'template_quncy5t', form.current, '0PMPJOnffqzLcR9dv')
       .then((result) => {
         setOpen(true);
         form.current.reset();
