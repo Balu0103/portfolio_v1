@@ -132,12 +132,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_fby17mm', 'template_quncy5t', form.current, '0PMPJOnffqzLcR9dv')
-      .then((result) => {
+    emailjs.sendForm('service_fby17mm', 'template_yw3rn6r', form.current, '0PMPJOnffqzLcR9dv')
+      .then(() => {
         setOpen(true);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
+        alert('Failed to send email. Please try again.')
       });
   }
 
