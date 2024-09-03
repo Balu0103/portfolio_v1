@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Balu0103",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1nMDMt5tlO8crOMeVBR8ojtMwL1RDva-v/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/balajigandla0103/",
   twitter: "https://x.com/balaji_gandla",
   insta: "",
@@ -203,7 +203,7 @@ export const education = [
     school: "Rajiv Gandhi University Of Knowledge Technologies",
     date: "2018 - 2022",
     grade: "8.31 CGPA",
-    desc: "I completed Bachelor's degree in Computer Science and Engineering at Rajiv Gandhi University Of Knowledge Technologies, Ongole. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "Graduated with a Bachelor's degree in Computer Science and Engineering from Rajiv Gandhi University of Knowledge Technologies, Ongole. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, providing a solid foundation in computer science principles and practices.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -212,16 +212,16 @@ export const education = [
     school: "Rajiv Gandhi University Of Knowledge Technologies",
     date: "2016 - 2018",
     grade: "8.0",
-    desc: "I completed my Pre University Course (Intermediate) at Rajiv Gandhi University Of Knowledge Technologies, where I studied Mathamatics, Physics and chemistry.",
+    desc: "Completed the Pre University Course (Intermediate) at Rajiv Gandhi University of Knowledge Technologies, with a focus on Mathematics, Physics, and Chemistry. This foundational education provided a strong basis in these core subjects, supporting my transition into advanced studies in computer science and engineering.",
     degree: "PUC (Intermediate), MPC",
   },
   {
     id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Emblem_of_Andhra_Pradesh.svg/330px-Emblem_of_Andhra_Pradesh.svg.png",
+    img: "",
     school: "ZPH School",
     date: "2016",
     grade: "9.7",
-    desc: "I completed my class 10 education at Zilla Parishad High School, Vangipuram.",
+    desc: "completed my class 10th education at Zilla Parishad High School, Vangipuram.",
     degree: "10th",
   },
 ];
@@ -257,7 +257,7 @@ export const projects = [
     description:
       "Designed and developed a car rental application, overseeing all aspects from backend architecture to frontend design and ensuring a seamless user experience and efficient operational functionality. Added search and filtering options to help users find cars by location, type, price, and availability. Integrated third-party APIs for payment gateways and location services, enhancing the functionality of the application. Added user login and profile features so customers can easily manage their bookings and view their rental history.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "",
     tags: ["Angular", "Java", "Spring Boot", "PostgreSQL", "Git", "Docker"],
     category: "web app",
     github: "https://github.com/Balu0103/carRental",
@@ -271,7 +271,7 @@ export const projects = [
     description:
       "Developed an e-commerce site with features like product listings, shopping carts, and secure checkout. Implemented user authentication and profile management, allowing secure logins and personalized shopping experiences. Developed and maintained product catalog with features for adding, updating, and managing details and categories. Implemented a customer review system, allowing users to leave feedback and ratings on products.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "",
     tags: ["React Js", "Bootstap", "Node Js", "PostgreSQL", "Git"],
     category: "web app",
     github: "https://github.com/Balu0103/eCommerce-website",
@@ -285,7 +285,7 @@ export const projects = [
     description:
       "Developed a personal finance tracker that allows users to categorize expenses and track spending across various categories, providing a clear overview of their finances. Enhanced spending reports with simple graphs to illustrate spending trends and patterns over time.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "",
     tags: ["React Js", "Bootstap", "Node Js", "MySQL"],
     category: "web app",
     github: "https://github.com/Balu0103/Penny-Tracker",
@@ -294,15 +294,15 @@ export const projects = [
 
   {
     id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    title: "Portfolio",
+    date: "Jan 2024 - Aug 2024",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "Created a portfolio website to showcase my software development projects and skills. The site features an organized layout for presenting my work, with detailed descriptions and visual elements that highlight my technical expertise and project achievements. Designed to offer visitors a comprehensive overview of my capabilities and experience in the field.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "",
+      "",
+    tags: ["React Js", "JavaScript", "CSS"],
+    category: "web app",
+    github: "https://github.com/Balu0103/portfolio_v1",
     webapp: "",
   },
   {
