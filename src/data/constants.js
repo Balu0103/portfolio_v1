@@ -102,6 +102,10 @@ export const skills = [
         name: "RESTful API",
         image: "",
       },
+      {
+        name: "Apache Kafka",
+        image: "",
+      },
     ],
   },
   
@@ -271,7 +275,7 @@ export const projects = [
     description:
       "Developed an e-commerce site with features like product listings, shopping carts, and secure checkout. Implemented user authentication and profile management, allowing secure logins and personalized shopping experiences. Developed and maintained product catalog with features for adding, updating, and managing details and categories. Implemented a customer review system, allowing users to leave feedback and ratings on products.",
     image:
-      "",
+      "/ecomm.png",
     tags: ["React Js", "Bootstap", "Node Js", "PostgreSQL", "Git"],
     category: "web app",
     github: "https://github.com/Balu0103/eCommerce-website",
@@ -299,7 +303,7 @@ export const projects = [
     description:
       "Created a portfolio website to showcase my software development projects and skills. The site features an organized layout for presenting my work, with detailed descriptions and visual elements that highlight my technical expertise and project achievements. Designed to offer visitors a comprehensive overview of my capabilities and experience in the field.",
     image:
-      "",
+      "/portfolio.png",
     tags: ["React Js", "JavaScript", "CSS"],
     category: "web app",
     github: "https://github.com/Balu0103/portfolio_v1",
@@ -325,7 +329,7 @@ export const projects = [
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "/todo.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
     github: "",
@@ -338,7 +342,7 @@ export const projects = [
     description:
       "A simple react landing page.",
     image:
-      "",
+      "/LandingPage.png",
     tags: ["React Js", "Node JS"],
     category: "web app",
     github: "https://github.com/Balu0103/React-Landing-Page",
