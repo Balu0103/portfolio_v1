@@ -159,7 +159,14 @@ export const experiences = [
     role: "System Engineer",
     company: "Tata Consultancy Services",
     date: "07/2022 - 11/2023",
-    desc: "Developed and optimized scalable backend microservices, ensuring 99.9% application uptime and enhancing system reliability.",
+    
+    //desc: "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment. Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control. Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%.",
+    desc : [
+      "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment.",
+      "Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.",
+      "Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control.",
+      "Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%."
+    ],
     skills: [
       "Java",
       "Spring Boot",
@@ -176,7 +183,7 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "IHS Markit",
     date: "10/2021 - 03/2022",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Supported the development and enhancement of backend services, contributing to the implementation of new features while gaining practical experience in software engineering. Supported the team in identifying and resolving production issues, using JIRA to track and manage incidents, which improved system stability. Participated in Agile ceremonies, including daily stand-ups and sprint reviews, to aid in project tracking and delivery. Documented technical processes and code changes, ensuring clear and effective communication within the team",
     skills: [
       "Java",
       "Spring boot",
