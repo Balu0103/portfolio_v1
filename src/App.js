@@ -15,6 +15,9 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
+import { Analytics } from "@vercel/analytics/react"
+
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -49,6 +52,7 @@ function App() {
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
+          <Analytics />
         </Body>
       </Router>
     </ThemeProvider>
