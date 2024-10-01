@@ -70,10 +70,6 @@ export const skills = [
         name: "Microservices",
         image: "",
       },
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
       
       {
         name: "C++",
