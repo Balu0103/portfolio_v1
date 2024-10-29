@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Balu0103",
   resume:
-    "https://drive.google.com/file/d/1nMDMt5tlO8crOMeVBR8ojtMwL1RDva-v/view?usp=sharing",
+    "https://drive.google.com/file/d/1mvrDD1vItIhVXrQG2oPUUwvdJm0CI1mk/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/balajigandla0103/",
   twitter: "https://x.com/balaji_gandla",
   insta: "",
