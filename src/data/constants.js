@@ -159,18 +159,16 @@ export const experiences = [
     
     //desc: "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment. Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control. Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%.",
     desc : [
-      "• Contributed to the development of an e-commerce platform, enhancing the shopping and checkout experience. Utilized Agile methodologies and the CI/CD process to enhance the system’s performance, reducing downtime by 30%. Optimized backend processes to decrease page load times by 15%, improving overall user satisfaction.",
-      "• Actively troubleshot and resolved technical issues across the platform, which resulted in a 30% decrease in system outages and significantly improved overall operational stability.",
-      "• Engaged in testing and debugging to identify and fix issues before launch, which reduced post-launch problems by 20%.",
-      "• Established a customer feedback system that increased response rates by 50%, allowing for faster improvements to the platform and boosting customer satisfaction."
+      "• Worked on the development of a booking platform and managed operations in an early-stage startup, optimizing core features to enhance user experience",
+      "• Collaborated with a small team to deliver 95% of project milestones on schedule.",
+      "• Optimized backend workflows, reducing data retrieval time by 15%, leading to a faster, more responsive user interface.",
+      "• Engaged in testing and debugging to identify and fix issues before launch, which reduced post-launch problems by 20%.Actively participated in strategy sessions, aligning technical developments with business goals and helping increase early user engagement by 15%."
     ],
     skills: [
       "Java",
       "Spring Boot",
       "PostgreSQL",
       "Docker",
-      "JavaScript",
-      "Node Js",
     ],
     //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
@@ -193,8 +191,8 @@ export const experiences = [
       "Spring Boot",
       "PostgreSQL",
       "Docker",
-      "JavaScript",
-      "Node Js",
+      "Git",
+      "Jenkins",
     ],
     //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
@@ -206,8 +204,6 @@ export const experiences = [
     date: "10/2021 - 03/2022",
     desc: "Supported the development and enhancement of backend services, contributing to the implementation of new features while gaining practical experience in software engineering. Supported the team in identifying and resolving production issues, using JIRA to track and manage incidents, which improved system stability. Participated in Agile ceremonies, including daily stand-ups and sprint reviews, to aid in project tracking and delivery. Documented technical processes and code changes, ensuring clear and effective communication within the team",
     skills: [
-      "Java",
-      "Spring boot",
       "HTML",
       "CSS",
       "JavaScript",
