@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Balu0103",
   resume:
-    "https://drive.google.com/file/d/1mvrDD1vItIhVXrQG2oPUUwvdJm0CI1mk/view?usp=sharing",
+    "https://drive.google.com/file/d/1OX_CD1DS6ZqCK7M20J3MeSIPr8d1taRS/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/balajigandla0103/",
   twitter: "https://x.com/balaji_gandla",
   insta: "",
@@ -120,6 +120,16 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
+        name: "Jenkins",
+        image:
+          "",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "",
+      },
+      {
         name: "Linux",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/225px-Tux.svg.png",
@@ -140,6 +150,7 @@ export const skills = [
         image:
           "",
       },
+      
     ],
   },
 ];
@@ -154,10 +165,10 @@ export const experiences = [
     
     //desc: "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment. Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control. Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%.",
     desc : [
-      "• Worked on the development of a booking platform and managed operations in an early-stage startup, optimizing core features to enhance user experience",
-      "• Collaborated with a small team to deliver 95% of project milestones on schedule.",
-      "• Optimized backend workflows, reducing data retrieval time by 15%, leading to a faster, more responsive user interface.",
-      "• Engaged in testing and debugging to identify and fix issues before launch, which reduced post-launch problems by 20%.Actively participated in strategy sessions, aligning technical developments with business goals and helping increase early user engagement by 15%."
+      "Developed a booking platform and managed operations in an early-stage startup, improving core features to enhance user experience and usability.",
+      "Designed RESTful APIs for key features, enabling seamless communication between frontend and backend systems.", 
+      "Established a real-time notification system powered by WebSocket and Spring Boot, improving user engagement on the platform by 20%.",
+      "Actively participated in strategy sessions, aligning technical developments with business goals and helping increase early user engagement by 15%"
     ],
     skills: [
       "Java",
@@ -176,10 +187,11 @@ export const experiences = [
     
     //desc: "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment. Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control. Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%.",
     desc : [
-      "Developed backend microservices using Java and Spring Boot, reducing service response time by 15% through optimized workflows and Docker containerization for seamless deployment.",
-      "Reduced server response times by 30% for account inquiries by optimizing database queries and implementing Redis caching.",
-      "Enhanced and tested RESTful APIs, improving service reliability by 25%, using Postman for efficient validation and Git for version control.",
-      "Proactively identified and resolved backend bottlenecks, boosting system efficiency by 20%."
+      "Developed and maintained backend microservices with Java and Spring Boot, enhancing system performance and reducing downtime by 20%.",
+      "Optimized database queries, reducing data retrieval time by 40% and improving response times across critical services",
+      "Streamlined deployment processes using Docker and Jenkins, achieving CI/CD pipelines that reduced deployment time by 25% and improved release efficiency",
+      "Created and optimized REST APIs, achieving a 30% reduction in server response times.",
+      "Conducted unit and integration testing using JUnit, achieving a 95% test coverage and reducing bugs in production"
     ],
     skills: [
       "Java",
@@ -188,31 +200,34 @@ export const experiences = [
       "Docker",
       "Git",
       "Jenkins",
+      "Postman",
+      "JUnit",
+      "Kubernetes",
     ],
     //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
-  {
-    id: 0,
-    img: "",
-    role: "Software Engineer Intern",
-    company: "IHS Markit",
-    date: "10/2021 - 03/2022",
-    desc: "Supported the development and enhancement of backend services, contributing to the implementation of new features while gaining practical experience in software engineering. Supported the team in identifying and resolving production issues, using JIRA to track and manage incidents, which improved system stability. Participated in Agile ceremonies, including daily stand-ups and sprint reviews, to aid in project tracking and delivery. Documented technical processes and code changes, ensuring clear and effective communication within the team",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Documentation",
-    ],
-  },
+  // {
+  //   id: 0,
+  //   img: "",
+  //   role: "Software Engineer Intern",
+  //   company: "IHS Markit",
+  //   date: "10/2021 - 03/2022",
+  //   desc: "Supported the development and enhancement of backend services, contributing to the implementation of new features while gaining practical experience in software engineering. Supported the team in identifying and resolving production issues, using JIRA to track and manage incidents, which improved system stability. Participated in Agile ceremonies, including daily stand-ups and sprint reviews, to aid in project tracking and delivery. Documented technical processes and code changes, ensuring clear and effective communication within the team",
+  //   skills: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "React",
+  //     "Documentation",
+  //   ],
+  // },
   
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
     role: "Open Source Contributor ",
     company: "",
-    date: "June 2022 - Present",
+    date: "June 2021 - september 2022",
     desc: "Contributing to different open-source projects and learn from industry experts",
     
   },
@@ -223,19 +238,19 @@ export const education = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/en/b/b8/Rajiv_Gandhi_University_of_Knowledge_Technologies.png",
-    school: "Rajiv Gandhi University Of Knowledge Technologies",
+    school: "Rajiv Gandhi University Of Knowledge Technologies - APIIIT",
     date: "2018 - 2022",
     grade: "8.31 CGPA",
-    desc: "Graduated with a Bachelor's degree in Computer Science and Engineering from Rajiv Gandhi University of Knowledge Technologies, Ongole. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, providing a solid foundation in computer science principles and practices.",
+    desc: "Graduated with a Bachelor's degree in Computer Science and Engineering from Rajiv Gandhi University of Knowledge Technologies, Ongole - APIIIT. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, providing a solid foundation in computer science principles and practices.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/en/b/b8/Rajiv_Gandhi_University_of_Knowledge_Technologies.png",
-    school: "Rajiv Gandhi University Of Knowledge Technologies",
+    school: "Rajiv Gandhi University Of Knowledge Technologies - APIIIT",
     date: "2016 - 2018",
     grade: "8.0",
-    desc: "Completed the Pre University Course (Intermediate) at Rajiv Gandhi University of Knowledge Technologies, with a focus on Mathematics, Physics, and Chemistry. This foundational education provided a strong basis in these core subjects, supporting my transition into advanced studies in computer science and engineering.",
+    desc: "Completed the Pre University Course (Intermediate) at Rajiv Gandhi University of Knowledge Technologies-APIIIT, with a focus on Mathematics, Physics, and Chemistry. This foundational education provided a strong basis in these core subjects, supporting my transition into advanced studies in computer science and engineering.",
     degree: "PUC (Intermediate), MPC",
   },
   {
@@ -281,7 +296,7 @@ export const projects = [
       "Designed and developed a car rental application, overseeing all aspects from backend architecture to frontend design and ensuring a seamless user experience and efficient operational functionality. Added search and filtering options to help users find cars by location, type, price, and availability. Integrated third-party APIs for payment gateways and location services, enhancing the functionality of the application. Added user login and profile features so customers can easily manage their bookings and view their rental history.",
     image:
       "",
-    tags: ["Angular", "Java", "Spring Boot", "PostgreSQL", "Git", "Docker"],
+    tags: ["React Js", "Java", "Spring Boot", "PostgreSQL", "Git", "Docker"],
     category: "web app",
     github: "https://github.com/Balu0103/carRental",
     webapp: "",
@@ -349,7 +364,7 @@ export const projects = [
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
       "/todo.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    tags: ["React Js", "AWS Auth", "Node JS"],
     category: "web app",
     github: "",
     webapp: "",
